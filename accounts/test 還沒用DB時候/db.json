@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hello",
+      "content": "This is my first post!"
+    },
+    {
+      "id": 1,
+      "title": "Hello",
+      "content": "This is my first post!"
+    },
+    {
+      "id": 1,
+      "title": "Hello",
+      "content": "This is my first post!"
+    }
+  ],
+  "user": {}
+}

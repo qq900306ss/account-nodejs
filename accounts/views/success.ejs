@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>記帳成功</title>
+    <link 
+        href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
+        rel="stylesheet" 
+        />
+
+        <style>
+            .h-50 {
+                height: 50px;
+            }
+
+        </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class = "h-50"></div>
+        <div class = "alert alert-success" role="alert">
+            <h1>  <%= msg   %> </h1>
+            <p><a href="<%= url %>" >感謝您使用記帳本，期待再次為您服務！ </a></p>
+        </div>
+    </div>
+</body>
+
+</html>
