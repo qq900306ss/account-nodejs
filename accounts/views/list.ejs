@@ -42,7 +42,11 @@
           </h2>
           <hr />
           <div class="accounts">
-            <% accounts.forEach(item =>   { %>
+            <% 
+            let total = 0;
+              accounts.forEach((item, index) => {   //加總餘額
+                total += item.type === -1 ? -item.account : item.account;
+          %>
             <div class="panel <%= item.type===-1 ? 'panel-danger' : 'panel-success' %>">
               <div class="panel-heading"><%= moment(item.time).format('YYYY-MM-DD') %></div>
               <div class="panel-body">
@@ -65,6 +69,13 @@
             
             
           </div>
+          <div class="col-xs-12 text-right" style="margin-top: 30px;">
+            <span class="label label-primary" style="font-size: 16px; padding: 10px 20px;">
+              帳號總餘額: <%= total %> 元
+            </span>
+          </div>
+          
+          
         </div>
       </div>
     </div>
