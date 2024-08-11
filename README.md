@@ -5,4 +5,7 @@
 帳戶管理也有，且密碼使用MD5加密
 ![使用者](https://github.com/user-attachments/assets/5f9d7442-3533-4a7d-85fb-737b682bc803)
 並且設有cookie，可以再次瀏覽不必再登入，和防止沒登入就偷看
+![攜帶cookie](https://github.com/user-attachments/assets/6a298c45-6a11-445e-ba6a-d5c0de3a6760)
 ![COOKIE](https://github.com/user-attachments/assets/07c176a2-3c7a-488c-8811-6885d776d1e9)
+存放cookie的資料空間
+![一個資料庫空間專門存放](https://github.com/user-attachments/assets/f83d260b-ba70-49f1-ad2e-a968d94e6ba7)
